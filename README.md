@@ -1,55 +1,51 @@
-# Tailwind CSS Tutorial
+# 🚀 Acme Rockets
 
-This project is a simple setup for learning and practicing Tailwind CSS. It follows a tutorial to demonstrate how to configure Tailwind in a project and apply it to styling web pages.
+This project is a part of a tutorial that guides you through creating a responsive website. You can find the tutorial [here](https://www.youtube.com/watch?v=lCxcTsOHrjo).
 
-## Project Overview
+## Demo
 
-The project uses **Tailwind CSS** for utility-first styling. The configuration includes tools to automate CSS generation and formatting with Prettier.
+Check out the live deployment of the project on Render: [Acme Rockets Live]([LINK_TO_RENDER_DEPLOYMENT](https://tailwindcsstut2.onrender.com/#contact))
 
-### Main Files
+![Acme Rockets Screenshot]
 
-- **`tailwind.config.js`**: Configures the content path for Tailwind to scan and defines the theme settings.
-- **`package.json`**: Includes scripts for running Tailwind and Prettier, and specifies the dependencies used.
-- **`package-lock.json`**: Auto-generated file to ensure consistent installation of the exact versions of dependencies.
+![acmerockets](https://github.com/user-attachments/assets/8e62bc5d-8505-47c4-8431-d708361d2323)
 
-### Scripts
 
-- `npm run tailwind`: Watches for changes in the `src/input.css` file and compiles the CSS into `build/css/style.css`.
-- `npm run prettier`: Formats all `.html` files in the project using Prettier, with Tailwind-specific plugin configuration.
+## Description
 
-## Installation and Setup
+Acme Rockets is a fictional company that designs and builds rockets for space exploration. This website showcases our products and services, including testimonials from our satisfied customers.
 
-1. Clone the repository.
-2. Run `npm install` to install the necessary dependencies.
-3. To start the Tailwind CSS watcher, run:
+## Features
 
+- Responsive design
+- Interactive navigation
+- Testimonials section
+- Showcase of our rockets
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Tailwind CSS (if applicable)
+
+## Installation
+
+1. Clone the repository:
    ```bash
-   npm run tailwind
+   git clone https://github.com/karinEkenberg/TailwindCssTut2/
    ```
-
-   This will generate the CSS file and watch for changes.
-
-4. If you need to format the HTML files, run:
-
+2. Navigate to the project directory:
    ```bash
-   npm run prettier
+   cd TailwindCssTut2
    ```
+3. Open `index.html` in your web browser to view the project.
 
-## Tailwind Configuration
+## Usage
 
-The **`tailwind.config.js`** file is configured to scan all HTML files in the `build` folder for class names. You can modify this if you add more paths or content types.
+- Navigate through the website using the navigation bar.
+- Explore the different sections such as "Our Rockets" and "Testimonials."
 
-```javascript
-module.exports = {
-  content: ["./build/*.html"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
-```
+## Acknowledgments
 
-## Dependencies
-
-- **Tailwind CSS**: Utility-first CSS framework.
-- **Prettier Plugin for Tailwind CSS**: Ensures that Tailwind classes are properly formatted.
+- Thanks to the tutorial creator for the guidance.
