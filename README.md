@@ -4,10 +4,10 @@ This project is a part of a tutorial that guides you through creating a responsi
 
 ## Demo
 
-Check out the live deployment of the project on Render: https://tailwindcsstut2.onrender.com/#contact
+Check out the live deployment of the project on Render: https://tailwindcsstut2.onrender.com/
 
 
-(https://github.com/user-attachments/assets/8e62bc5d-8505-47c4-8431-d708361d2323)
+https://github.com/user-attachments/assets/8e62bc5d-8505-47c4-8431-d708361d2323
 
 
 ## Description
